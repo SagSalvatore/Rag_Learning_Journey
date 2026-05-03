@@ -1,0 +1,23 @@
+[project]
+name = "rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "docling>=2.92.0",
+    "langchain>=1.2.17",
+    "langchain-community>=0.4.1",
+    "langchain-openai>=1.2.1",
+    "langchain-qdrant>=1.1.0",
+    "langchain-tavily>=0.2.18",
+    "langchain-text-splitters>=1.1.2",
+    "langgraph>=1.1.10",
+    "langsmith[openai-agents]>=0.8.0",
+    "pandas>=3.0.2",
+    "pymupdf>=1.27.2.3",
+    "python-dotenv>=1.2.2",
+    "qdrant-client>=1.17.1",
+    "rank-bm25>=0.2.2",
+    "tiktoken>=0.12.0",
+]

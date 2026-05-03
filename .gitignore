@@ -1,0 +1,22 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Environment Variables
+.env
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+
+# Data / Vector DB
+qdrant_storage/
+data/documents/**/*.pdf
+
+# OS generated files
+.DS_Store
+Thumbs.db
